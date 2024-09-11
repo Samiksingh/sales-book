@@ -7,9 +7,7 @@ const Navlink = (props) => {
       className="flex items-center ml-8 my-3 lg:my-0"
       href={props.href || "/"}
     >
-      <span className={props.active ? "text-white" : "text-grey-500"}>
-        {props.title}
-      </span>
+      <span className={"hover:text-green-600"}>{props.title}</span>
     </Link>
   );
 };
