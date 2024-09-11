@@ -4,7 +4,7 @@ import React from "react";
 
 const FullDate = () => {
   const now = new Date();
-  const fullDate = `${now.getDate()}${
+  const fullDate = `${now.getDate()}/${
     now.getMonth() + 1
   }/${now.getFullYear()}`;
 
@@ -14,6 +14,7 @@ const FullDate = () => {
     </div>
   );
 };
+
 
 export const Frontpage = () => {
   return (
